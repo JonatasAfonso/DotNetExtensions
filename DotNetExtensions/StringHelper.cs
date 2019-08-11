@@ -74,7 +74,7 @@
         /// <returns></returns>
         public static bool EqualsButSpecialCharacteres(this string source, string destination)
         {
-            var sourcePrepared = source.RemoveDiacriticsAndSpecialCharacteres();
+            var sourcePrepared = source.RemoveDiacriticsAndSpecialCharacteres(); 
             var destinationPrepared = destination.RemoveDiacriticsAndSpecialCharacteres();
 
             var result = sourcePrepared == destinationPrepared;
